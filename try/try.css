@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.conteiner {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+.conteiner div {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+h2 {
+  font-size: 40px;
+}
+p {
+  font-size: 30px;
+  font-weight: 900;
+  color: white;
+  text-shadow: 1px 1px 1px blue, -1px -1px 1px blue;
+  position: relative;
+}
+p::before {
+  position: absolute;
+  content: "jujur";
+  color: blue;
+  margin: 0px;
+  padding-right: 2px;
+  border-right: 3px solid black;
+  overflow: hidden;
+  width: 75px;
+  animation: ketik 6s infinite, nama 30s infinite;
+}
+@keyframes ketik {
+  0% {
+    width: 0px;
+  }
+  50%,
+  70% {
+    width: 75px;
+  }
+  100% {
+    width: 0px;
+  }
+}
