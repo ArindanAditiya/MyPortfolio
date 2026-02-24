@@ -981,7 +981,7 @@ ul li a.in:hover {
     position: absolute;
     top: 0;
     /* right: 50%; */
-    height: 100vh;
+    height: 50vh;
     width: 100%;
     flex-direction: column;
     display: flex;
@@ -994,7 +994,6 @@ ul li a.in:hover {
     transform: translateX(1000px);
     text-align: center;
     transition: all 1s;
-    position: fixed;
   }
   .main-menu li {
     /* border: 1px solid white; */
