@@ -1097,3 +1097,22 @@ ul li a.in:hover {
     height: 180%;
   }
 }
+
+/* last modify */
+.github-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  width: 100px;
+  text-decoration: none;
+  background-color: #171720;
+  border: 1px solid orange;
+  padding: 6px 20px;
+  border-radius: 30px;
+  transition: all 0.5s;
+
+}
+.github-btn:hover {
+  border-radius: 30px;
+}
